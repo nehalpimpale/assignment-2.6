@@ -74,18 +74,22 @@ import java.util.Scanner;
 
 public class acad 
    { 
+   
       public static void sum() //sum method with no arguments 
    { 
+   
       int x=5; 
       int y=10; 
       System.out.println("Sum is (method with no arguments):"+(x+y)); 
    } 
      public static void sum(int a,int b) //sum method with 2 arguments
    { 
+   
       System.out.println("Sum of first 2 numbers is (method with 2 arguments):"+(a+b)); 
    } 
    public static void sum(int a,int b,int d,int e) //sum method with 4 arguments
    { 
+   
       System.out.println("Sum of all 3 numbers is (method with 4 arguments):"+(a+b+d+e)); 
    }
 
