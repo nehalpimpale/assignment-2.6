@@ -89,15 +89,15 @@ System.out.println("Sum of all 3 numbers is (method with 4 arguments):"+(a+b+d+e
 public static void main(String[] args)
 
 {
-    Scanner sc=new Scanner(System.in);
-    int a=sc.nextInt();      
-    int b=sc.nextInt();
-    int d=sc.nextInt();
-    int e=sc.nextInt();
-    sum();
-    sum(a,b);
-    sum(a,b,d,e);
-    sc.close();
+     Scanner sc=new Scanner(System.in);
+     int a=sc.nextInt();      
+     int b=sc.nextInt();
+     int d=sc.nextInt();
+     int e=sc.nextInt();
+     sum();
+     sum(a,b);
+     sum(a,b,d,e);
+     sc.close();
 } 
 
 }
