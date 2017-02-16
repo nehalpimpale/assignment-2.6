@@ -47,7 +47,25 @@
 
 import java.util.Scanner;
 
-public class acad { public static void main(String[] args) { Scanner sc=new Scanner(System.in); int n=sc.nextInt(); //accepting the number from console System.out.println("Input: "+n); System.out.println("O/p:"); for(int i=1;i<=10;i++) { System.out.println(n+" * "+i+" = "+(n*i)); //displaying table of given number on console } sc.close(); } }
+public class acad 
+{ 
+
+   public static void main(String[] args) 
+      { 
+      
+         Scanner sc=new Scanner(System.in); 
+         int n=sc.nextInt(); //accepting the number from console 
+         System.out.println("Input: "+n); 
+         System.out.println("O/p:"); 
+         for(int i=1;i<=10;i++) 
+         { 
+         
+            System.out.println(n+" * "+i+" = "+(n*i)); //displaying table of given number on console } 
+            sc.close(); 
+            
+         } 
+         
+      }
 
 
 3)Write a program consisting method sum() and demonstrate the concept of method overloading using this method.
